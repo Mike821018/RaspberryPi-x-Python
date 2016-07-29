@@ -11,5 +11,7 @@ def watching():
     return commands.getoutput('sudo hcidump')
     
 def stop():
-    commands.getoutput('
+    commands.getoutput('')
+    
+
 # Not finished yet
