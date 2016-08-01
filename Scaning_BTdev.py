@@ -11,7 +11,11 @@ def watching():
     return commands.getoutput('sudo hcidump')
     
 def stop():
-    commands.getoutput('')
+    return commands.getoutput('\x03')
+    
+threating.Thread(target = scanning)
+sleep(3)
+tmp = commands.getoutput('\x03')
     
 
 # Not finished yet
